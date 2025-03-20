@@ -1,0 +1,393 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    cursor: auto;
+    
+}
+
+html {
+    cursor: url(https://img.icons8.com/material/24/000000/cursor--v1.png), auto;
+    scroll-behavior: smooth  ;
+
+}
+
+:root{
+    --main-color:rgb(52, 124, 34);
+    
+
+}
+::selection{
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+    
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin: 40px auto;
+}
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(176, 176, 176);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--main-color);
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-tag{
+    display: flex;
+    gap: 20px;
+
+}
+header h1{
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-tag a{
+    font-size: 21px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header-tag a:hover {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+.main{
+    margin-top: 80px;
+}
+.main h2{
+    color: black;
+ width: 500px;
+ text-align: left;
+}
+.main_img img {
+    width: 1440px;
+}
+.main_img{
+    margin-top: 8px;
+    text-align: center;
+}
+.q{
+    border: 2.5px solid var(--main-color);
+}
+.info{
+    margin: 60px 0;
+    padding: 0 60px;
+}
+.info-p{
+    font-size: 25px;
+    margin-bottom: 40px;
+    line-height: 2;
+
+}
+.info-btn_a{
+    font-size:20px;
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+.info-btn{
+    border: 2px solid var(--main-color);
+    width: 170px;
+    align-items: center;
+    display: flex;
+    padding: 8px 15px ;
+    justify-content: center;
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+.info-btn:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+.project-img{
+    display: flex;
+    justify-content: center;    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 50px;
+
+}
+.project-img_s1{
+    width: 400px;
+    height: 400px;
+    background-image: url(https://static10.tgstat.ru/channels/_0/75/7534409430cd4a720650f398d6022fb6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+.project-img_s2{
+    width: 400px;
+    height: 400px;
+    background-image: url(https://img.razrisyika.ru/kart/62/245690-garri-potter-i-filosofskiy-kamen-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.project-img_s3{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/1920x.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+.project-p{
+    margin-bottom: 40px;
+    line-height: 1.8em;
+    font-size: 25px;
+    padding: 0 60px;
+    text-align: center;
+}
+
+.team-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.team-img_s{
+    width: 380px;
+    height: 380px;
+    background-color: rgb(52, 124, 34);
+    border-radius: 50%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.team-img_s1{
+    background-image: url(../img/feafsfesf.webp);
+}
+.team-img_s2{
+    background-image: url(../img/images.png );
+
+}
+.team-img_s3{
+    background-image: url(../img/UKARI-2.jpg);
+    
+}
+.team-img_s4{
+    background-image: url(../img/aleksej-kremnev2.jpg);
+}.team-img_s5{
+    background-image: url(../img/Bryuki-muzhskie-Regular-Fit-ST1334-Greiff-363x467-1.jpg
+    );
+}
+.team-img_s:hover{
+    border: 5px solid black;
+}
+.reviews {
+    margin-top: 50px;
+}
+.reviews-img {
+    width: 250px;
+    height: 250px;
+    /* background-color: lawngreen; */
+    border-radius: 50%;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.reviews-img_1{
+    background-image: url(../img/pos.jpg);
+}
+.reviews-img_2{
+    background-image: url(../img/resizeCrop_700_525_center_center__.jpg);
+}   
+.reviews-img_3{
+    background-image: url(../img/palto-muzhskoe-iz-verblyuzhej-shersti-802gm-3.jpg);
+}
+.reviews_container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 3000px;
+}
+.reviews_slider {
+    width: 760px;
+    overflow: hidden;
+}
+.reviews-slider__line {
+    width: 2280px;
+    /* background-color: orange; */
+    display: flex;
+    position: relative;
+    left: 0;
+    z-index: -10;
+}
+.reviews-card {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 760px;
+}
+
+.reviews-back::before {
+    content: "<";
+    font-size: 48px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-back:hover::before {
+    background-color: rgb(52, 124, 34);
+    cursor: pointer;
+}
+.reviews-next::after {
+    content: ">";
+    font-size: 48px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1150px;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-next:hover::after {
+    background-color: rgb(52, 124, 34);
+    cursor: pointer;
+}
+.reviews-text{
+font-size: 18px;
+margin-top: 30px;
+}
+.reviews-card h5{
+    font-size: 30px;
+    
+}
+.was{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+
+.buy-img{
+width: 300px;
+height: 300px;
+background-color: aqua;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.buy-img1{
+    background-image: url(../img/pasw.jpg);
+   
+}
+.o{
+    
+    border: 2px solid var(--main-color);
+    width: 170px;
+    text-align: center;
+    display: flex;
+    padding: 8px 15px ;
+    justify-content: center;
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+  margin: 50px;
+
+
+}
+.o:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+}
+.buy-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 27px;
+    
+    
+}
+.buy-img2{
+background-image: url(../img/wowa.jpg);
+
+}
+.buy-img3{
+    background-image: url(../img/qwq.jpg);
+}
+.buy-img4{
+    background-image: url(../img/zaza.jpg);
+
+}
+.buy-img5{
+    background-image: url(../img/1920x.jpg);
+}
+.buy-img6{
+background-image: url(../img/11972.jpg);
+}
+.buy-img7{
+    background-image: url(../img/jsdsdjsd.jpg);
+}
+.buy-img8{
+    background-image: url(../img/dLh7MRvG-1280.jpg);
+}
+.buy-img9{
+    background-image: url(../img/6598.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
